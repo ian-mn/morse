@@ -1,5 +1,5 @@
 # morse
-Morse Code Library in Go
+Morse Code Library in Go with Extensible Alpahbets and Customization
 
 ## Download & Use
 WIP
