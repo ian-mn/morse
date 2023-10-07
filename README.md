@@ -33,8 +33,9 @@ import (
 
 func main() {
 
+	// Package is provided with international and russian morse alphabets
 	existingAlphabets := morse.GetAlphabets()
-	fmt.Println(existingAlphabets) // Package is provided with international and russian morse alphabets
+	fmt.Println(existingAlphabets) // [international russian]
 
 	arabicAlpahbet := morse.Alphabet{
 		Mapping: map[string]string{
@@ -95,8 +96,11 @@ func main() {
 	morse.SetSymbols("*", "^", "-", "\\")
 	morse.SetAlphabet("russian")
 
-	encoded := morse.Encode("Привет, мир!") // Hello, World!
-	fmt.Println(encoded) // *^^*-*^*-**-*^^-*-^-^^**^^\^^-**-*^*-^*^*^^
+	// Hello, World!
+	encoded := morse.Encode("Привет, мир!")
+
+	// *^^*-*^*-**-*^^-*-^-^^**^^\^^-**-*^*-^*^*^^
+	fmt.Println(encoded)
 
 	decoded := morse.Decode(encoded)
 	fmt.Println(decoded) // ПРИВЕТ, МИР!
