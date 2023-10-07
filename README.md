@@ -33,7 +33,8 @@ import (
 
 func main() {
 
-	// Package is provided with international and russian morse alphabets
+	// Package is provided with international
+	// and russian morse alphabets
 	existingAlphabets := morse.GetAlphabets()
 	fmt.Println(existingAlphabets) // [international russian]
 
