@@ -1,7 +1,7 @@
 # morse
 Morse Code Library in Go
 
-## Download and Use
+## Download & Use
 WIP
 
 ## Sample Usage
