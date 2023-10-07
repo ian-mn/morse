@@ -3,6 +3,7 @@
 [![codecov](https://codecov.io/gh/ian-mn/morse/branch/master/graph/badge.svg)](https://codecov.io/gh/ian-mn/morse)
 [![Go Reference](https://pkg.go.dev/badge/github.com/ian-mn/morse.svg)](https://pkg.go.dev/github.com/ian-mn/morse)
 [![License](https://img.shields.io/pypi/l/Django.svg)](https://github.com/ian-mn/morse/blob/master/LICENSE)
+
 Morse Code Library in Go with Extensible Alpahbets and Customization
 
 ## Download & Use
